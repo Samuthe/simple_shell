@@ -1,6 +1,6 @@
 Shell project
 
-A Shell provides you with an interface to the Unix system.
+The Shell will provide you with an interface to the Unix system.
 It gathers input from you and executes programs based on that input.
 <<<<<<< HEAD
 When a program finishes executing, it displays that program's output.
