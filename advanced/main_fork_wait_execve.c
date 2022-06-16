@@ -1,4 +1,4 @@
-#include "shell.h".
+#include "shell.h"
 
 /**
  * main - executes the command ls -l /tmp in 5 different child processes
