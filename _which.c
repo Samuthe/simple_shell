@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * _which - searches directories in PATH variable for command
  * @command: to search for
@@ -6,6 +7,7 @@
  * @path: full PATH variable
  * Return: pointer to full_path
  */
+
 char *_which(char *command, char *fullpath, char *path)
 {
 unsigned int command_length, path_length, original_path_length;
@@ -27,7 +29,7 @@ token = strtok(NULL, ":");
 while (token != NULL)
 {
 path_length = _strlen(token);
-fullpath = malloc(sizeof(char) * (path_length + command_length) + 2);
+fullpath = malloc(sizeof(char) * (path_length + command_length)+2);
 if (fullpath == NULL)
 {
 errors(3);
@@ -35,7 +37,7 @@ return (NULL);
 }
 _strcpy(fullpath, token);
 fullpath[path_length] = '/';
-_strcpy(fullpath + path_length + 1, command);
+strcpy(fullpath + path_length + 1, command);
 fullpath[path_length + command_length + 1] = '\0';
 if (access(fullpath, X_OK) != 0)
 {
