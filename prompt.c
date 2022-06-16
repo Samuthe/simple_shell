@@ -1,4 +1,4 @@
-#include "shell.h".
+#include "shell.h"
 
 /**
 * prompt - checks mode and prints prompt if in interactive mode
