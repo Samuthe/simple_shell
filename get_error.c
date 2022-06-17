@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shell.h".
 
 /**
  * get_error - calls the error according to the builtin, syntax or permission
