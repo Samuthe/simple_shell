@@ -1,5 +1,5 @@
 B.This is a Manpage for the simple shell project 
-.Created by Samuel Ekati and ...
+.Created by Samuel Ekati and Chris Kihereko
 
 .TH SODASH 1 "June 12 2022" "SODA SHELL - Simple Shell man page"
 
@@ -96,4 +96,4 @@ Sodash\fR takes basic functionality of the \fBsh\fR shell. This man page is base
 
 .SH AUTHORS
 1. Samuel Ekati
-2. 
+2. Chris Kihereko
